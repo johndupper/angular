@@ -6,3 +6,13 @@ angular.module('todoListApp')
         restrict: 'E' // use as an element only
     };
 });
+
+/*
+
+- standalone element:
+<hello-world></hello-world>
+
+- existing element attribute:
+<div hello-world></div>
+
+*/
